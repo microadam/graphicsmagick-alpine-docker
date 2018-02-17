@@ -1,7 +1,7 @@
 FROM alpine:latest
 
 ENV PKGNAME=graphicsmagick
-ENV PKGVER=1.3.23
+ENV PKGVER=1.3.28
 ENV PKGSOURCE=http://downloads.sourceforge.net/$PKGNAME/$PKGNAME/$PKGVER/GraphicsMagick-$PKGVER.tar.lz
 
 RUN apk add --update g++ \
