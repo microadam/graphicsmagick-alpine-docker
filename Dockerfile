@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM alpine:3.6
 
 ENV PKGNAME=graphicsmagick
 ENV PKGVER=1.3.28
